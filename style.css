@@ -1,0 +1,48 @@
+body{
+    background-size: cover;
+}
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+.copy_right_footer{
+    position: fixed;
+    color: white;
+    width: 100%;
+    background-color: orangered;
+    bottom: 0;
+    line-height: 3;
+    text-align: center;
+}
+canvas{
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px white;
+    margin-top: 130px;
+}
+#start,#number_of_objects{
+    font-size: 18px;
+}
+
+img{
+    height: 50px;
+    width: 50px;;
+}
+
+div{
+    background-color: grey;
+    color:white;
+    width:20%;
+    border-radius: 10px;
+    margin-left:15px ;
+}
+
+.end_div{
+    background-color: hotpink;
+    color:indigo;
+    border: 5px solid black;
+    font-size: 25px;
+    width:75%;
+    font-family:fantasy;
+}

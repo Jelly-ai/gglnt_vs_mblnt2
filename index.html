@@ -1,0 +1,171 @@
+<html>
+<head>
+
+	<title>Google Lens vs Mobilenet</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="gradient.jpg">
+<center>
+<h1 class="btn btn-warning heading"> Case Study</h1>
+<br><br>
+<h3 class=" btn btn-primary">Mobilenet</h3>
+<br><br>
+<h3 id="number_of_objects" class="btn btn-warning">VS</h3>
+<br><br>
+<img src="unnamed.png">
+</center>
+<div class="text_images_and_result">
+  <li>
+  <b>Test image-</b>
+  <img src="sofa.jpg" class="img_responsive">
+  </li>
+  <h5>Output on <b>Google Lens </b> - 
+    <span> sofa </span>
+    </h5> 
+    <h5>Output on <b>mobilnet model </b> -  
+      <span> sofa </span>
+      </h5> 
+      <div class="mini-result">
+      <h4> Result - </h4>
+      <h4>Both are accurate</h4>
+      </div>
+</div>  
+<br>
+<div class="text_images_and_result">
+  <li>
+  <b>Test image-</b>
+  <img src="bag.jpg" class="img_responsive">
+  </li>
+  <h5>Output on <b>Google Lens </b> - 
+    <span> bag </span>
+    </h5> 
+    <h5>Output on <b>mobilnet model </b> -  
+      <span> School Bag </span>
+      </h5> 
+      <div class="mini-result">
+      <h4> Result - </h4>
+      <h4>Mobilenet is more accurate</h4>
+      </div>
+</div> 
+<br>
+<div class="text_images_and_result">
+    <li>
+    <b>Test image-</b>
+    <img src="phone.jpg" class="img_responsive">
+    </li>
+    <h5>Output on <b>Google Lens </b> - 
+      <span> phone </span>
+      </h5> 
+      <h5>Output on <b>mobilnet model </b> -  
+        <span> Smartphone </span>
+        </h5> 
+        <div class="mini-result">
+        <h4> Result - </h4>
+        <h4>Mobilenet is more accurate</h4>
+        </div>
+</div>
+<br>
+<div class="text_images_and_result">
+        <li>
+        <b>Test image-</b>
+        <img src="pen - Copy.jpg" class="img_responsive">
+        </li>
+        <h5>Output on <b>Google Lens </b> - 
+          <span> pen,pencil </span>
+          </h5> 
+          <h5>Output on <b>mobilnet model </b> -  
+            <span> Stationary </span>
+            </h5> 
+            <div class="mini-result">
+            <h4> Result - </h4>
+            <h4>Google Lens is more accurate</h4>
+            </div>
+    </div>
+    <br>
+    <div class="text_images_and_result">
+        <li>
+        <b>Test image-</b>
+        <img src="soft toy.jpg" class="img_responsive">
+        </li>
+        <h5>Output on <b>Google Lens </b> - 
+          <span> Penguin </span>
+          </h5> 
+          <h5>Output on <b>mobilnet model </b> -  
+            <span>Soft toy </span>
+            </h5> 
+            <div class="mini-result">
+            <h4> Result - </h4>
+            <h4>Google Lens is more accurate</h4>
+            </div>
+    </div>  
+    <br>
+    <div class="text_images_and_result">
+      <li>
+      <b>Test image-</b>
+      <img src="chair copy.jpg" class="img_responsive">
+      </li>
+      <h5>Output on <b>Google Lens </b> - 
+        <span> chair </span>
+        </h5> 
+        <h5>Output on <b>mobilnet model </b> -  
+          <span> chair </span>
+          </h5> 
+          <div class="mini-result">
+          <h4> Result - </h4>
+          <h4>Both are accurate</h4>
+          </div>
+  </div>  
+  <br>
+  <div class="text_images_and_result">
+    <li>
+    <b>Test image-</b>
+    <img src="book copy.jpg" class="img_responsive">
+    </li>
+    <h5>Output on <b>Google Lens </b> - 
+      <span> book   </span>
+      </h5> 
+      <h5>Output on <b>mobilnet model </b> -  
+        <span>book </span>
+        </h5> 
+        <div class="mini-result">
+        <h4> Result - </h4>
+        <h4>Both are accurate</h4>
+        </div>  
+      </div>
+        <br>
+        <div class="text_images_and_result">
+            <li>
+            <b>Test image-</b>
+            <img src="bed.jpg" class="img_responsive">
+            </li>
+            <h5>Output on <b>Google Lens </b> - 
+              <span> Studio couch </span>
+              </h5> 
+              <h5>Output on <b>mobilnet model </b> -  
+                <span> Bed </span>
+                </h5> 
+                <div class="mini-result">
+                <h4> Result - </h4>
+                <h4>Google Lens is more accurate</h4>
+                </div>
+              </div>
+              <br>
+              <div class="end_div">
+                I tested 9 images out of which Mobilenet got 2 and Google Lens got 3, hence Google lens is more accurate
+              </div>
+
+<script src="main.js"></script>
+
+</body>
+
+</html>
